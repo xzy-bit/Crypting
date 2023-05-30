@@ -37,7 +37,7 @@ The first line is a positive integer $len$ from the collection ${192,256}$ , rep
 The second line contains a positive integer $T$ , which represents the number of encryption/decryption times. The same key is used.\
 The third line is a hexadecimal string $s$ , starting with `0x`and representing the text, guaranteed $|s|=34$;\
 The fourth line is a hexadecimal string $k$ , starting with `0x`, which is the key, guaranteed $|k|$ from collection ${50,66}$;\
-The fifth line is a non-negative integer $op$ , representing the encryption/decryption mode, 1 for encryption, and 0 for decryption.\
+The fifth line is a non-negative integer $op$ , representing the encryption/decryption mode, 1 for encryption, and 0 for decryption.
 ##### Input 1
 ```
 192
