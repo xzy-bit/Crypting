@@ -47,7 +47,7 @@ The Output is a string beginning with `0x` , representing the result of crypting
 
 ### sm4_ecb.c
 
-The padding according to the standard of $PKCS/#7$.
+The padding according to the standard of $PKCS\#7$.
 The input contains several lines.\
 The first line is a hexadecimal string $k$ , starting with `0x`, which is the key, guaranteed $|k|=34$;\
 The second line is a non-negative integer $op$ , representing the encryption / decryption mode, 1 for encryption, and 0 for decryption.\
@@ -147,7 +147,7 @@ The Output is a string beginning with `0x` , representing the result of crypting
 
 ### sm4_cbc.c
 
-The padding according to the standard of $PKCS/#7$.
+The padding according to the standard of $PKCS\#7$.
 The input contains several lines.\
 The first line is a hexadecimal string $k$ , starting with `0x`, which is the key, guaranteed $|k|=34$;\
 The second line is a hexadecimal string $IV$ , starting with `0x`, which is the innitialization vector , guaranteed $|IV|=34$;\
