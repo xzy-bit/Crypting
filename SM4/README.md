@@ -9,11 +9,11 @@ sm4_ecb.c / sm4_cbc.c / sm4_ctr.c / sm4_cfb.c / sm4_ofb.c is the immplment of th
 ### sm4.c / sm4.java
 
 The input contains four lines.\
-The first line contains a positive integer $T$ , which represents the number of encryption/decryption times. The same key is used.\
+The first line contains a positive integer $T$ , which represents the number of encryption / decryption times. The same key is used.\
 The second line is a hexadecimal string $s$ , starting with `0x`and representing the text, guaranteed $|s|=34$;\
 The third line is a hexadecimal string $k$ , starting with `0x`, which is the key, guaranteed $|k|=34$;\
-The fourth line is a non-negative integer $op$ , representing the encryption/decryption mode, 1 for encryption, and 0 for decryption.\
-The Output is a string beginning with `0x` , representing the result of crypting/decrypting.
+The fourth line is a non-negative integer $op$ , representing the encryption / decryption mode, 1 for encryption, and 0 for decryption.\
+The Output is a string beginning with `0x` , representing the result of crypting / decrypting.
 
 ##### Input 1
 
@@ -50,9 +50,9 @@ The Output is a string beginning with `0x` , representing the result of crypting
 The padding according to the standard of $PKCS#7$.
 The input contains several lines.\
 The first line is a hexadecimal string $k$ , starting with `0x`, which is the key, guaranteed $|k|=34$;\
-The second line is a non-negative integer $op$ , representing the encryption/decryption mode, 1 for encryption, and 0 for decryption.\
+The second line is a non-negative integer $op$ , representing the encryption / decryption mode, 1 for encryption, and 0 for decryption.\
 Then the next lines contain single byte hexadecimal number , representing the text to be crypted or decrypted , guaranteed the input is legal.
-The Output is a string beginning with `0x` , representing the result of crypting/decrypting.
+The Output is a string beginning with `0x` , representing the result of crypting / decrypting.
 
 ##### Input 1
 
@@ -151,9 +151,9 @@ The padding according to the standard of $PKCS#7$.
 The input contains several lines.\
 The first line is a hexadecimal string $k$ , starting with `0x`, which is the key, guaranteed $|k|=34$;\
 The second line is a hexadecimal string $IV$ , starting with `0x`, which is the innitialization vector , guaranteed $|IV|=34$;\
-The second line is a non-negative integer $op$ , representing the encryption/decryption mode, 1 for encryption, and 0 for decryption.\
+The second line is a non-negative integer $op$ , representing the encryption / decryption mode, 1 for encryption, and 0 for decryption.\
 Then the next lines contain single byte hexadecimal number , representing the text to be crypted or decrypted , guaranteed the input is legal.
-The Output is a string beginning with `0x` , representing the result of crypting/decrypting.
+The Output is a string beginning with `0x` , representing the result of crypting / decrypting.
 
 ##### Input 1
 
