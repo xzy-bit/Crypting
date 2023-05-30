@@ -1,8 +1,8 @@
 ### Introduction
 
 This directory contains the codes related with **SM4 Algorithm**.\
-sm4.c and sm4.java is the immplment of the primitive SM4 algorithm.\
-sm4_ecb.c / sm4_cbc.c / sm4_ctr.c / sm4_cfb.c / sm4_ofb.c is the immplment of the working-patterns of algorithm based on SM4.
+sm4.c and sm4.java is the implment of the primitive SM4 algorithm.\
+sm4_ecb.c / sm4_cbc.c / sm4_ctr.c / sm4_cfb.c / sm4_ofb.c is the implment of the working-patterns of algorithm based on SM4.
 
 ### Details
 
