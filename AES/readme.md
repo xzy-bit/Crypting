@@ -1,6 +1,6 @@
 ### Introduction
 This directory contains the codes related with **AES Algorithm**.\
-aes128.java / aes.java is the immplment of the AES-128/AES-192/AES-256 algorithm.\
+aes128.java / aes.java is the immplment of the AES-128/AES-192/AES-256 algorithm.
 ### Details
 ### aes128.c
 The input contains four lines.\
